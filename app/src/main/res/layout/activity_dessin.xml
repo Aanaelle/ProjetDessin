@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".DessinActivity"
+    android:background="@color/fond">
 
-</android.support.constraint.ConstraintLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="1"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnQuitter"
+            android:text="QUITTER"
+            android:background="@color/buttonColor"
+            android:textColor="@color/textColor"
+            android:layout_marginLeft="100dp"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEffacer"
+            android:text="EFFACER TOUT"
+            android:background="@color/buttonColor"
+            android:textColor="@color/textColor"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@+id/btnQuitter"
+            />
+
+    </GridLayout>
+
+
+</RelativeLayout>

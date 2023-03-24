@@ -14,6 +14,7 @@ color view
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id btnEffacer
 id btnNew
 id btnQuitter
 id btnReprendre
