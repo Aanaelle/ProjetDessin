@@ -6,59 +6,59 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml
+8-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml
+9-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:5:5-29:19
+11-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:5:5-29:19
 12        android:allowBackup="true"
-12-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:6:9-35
+12-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-13-->[com.android.support:support-compat:28.0.0] /home/etudiant/ma210374/.gradle/caches/transforms-3/4f186a80ab597ea7aa722d39464f8dbb/transformed/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+13-->[com.android.support:support-compat:28.0.0] C:\Users\alexa\.gradle\caches\transforms-3\4f186a80ab597ea7aa722d39464f8dbb\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:7:9-65
+14-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:7:9-65
 15        android:debuggable="true"
 16        android:fullBackupContent="@xml/backup_rules"
-16-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:8:9-54
+16-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:8:9-54
 17        android:icon="@mipmap/ic_launcher"
-17-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:9:9-43
+17-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:9:9-43
 18        android:label="@string/app_name"
-18-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:10:9-41
+18-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:10:9-41
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:11:9-54
+19-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:11:9-54
 20        android:supportsRtl="true"
-20-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:12:9-35
+20-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:12:9-35
 21        android:testOnly="true"
 22        android:theme="@style/Theme.ProjetDessin" >
-22-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:13:9-50
+22-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:13:9-50
 23        <activity
-23-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:15:9-27:20
+23-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:15:9-27:20
 24            android:name="com.example.projetdessin.MainActivity"
-24-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:16:13-41
+24-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:16:13-41
 25            android:exported="true" >
-25-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:17:13-36
+25-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:17:13-36
 26            <intent-filter>
-26-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:18:13-22:29
+26-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:18:13-22:29
 27                <action android:name="android.intent.action.MAIN" />
-27-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:19:17-69
-27-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:19:25-66
+27-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:19:17-69
+27-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:19:25-66
 28
 29                <category android:name="android.intent.category.LAUNCHER" />
-29-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:21:17-77
-29-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:21:27-74
+29-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:21:17-77
+29-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:21:27-74
 30            </intent-filter>
 31
 32            <meta-data
-32-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:24:13-26:36
+32-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:24:13-26:36
 33                android:name="android.app.lib_name"
-33-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:25:17-52
+33-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:25:17-52
 34                android:value="" />
-34-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:26:17-33
+34-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:26:17-33
 35        </activity>
 36        <activity android:name="com.example.projetdessin.DessinActivity" >
-36-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:28:9-62
-36-->/home/etudiant/ma210374/TP/s4/r4.11_dev_modile/ProjetDessin/app/src/main/AndroidManifest.xml:28:19-49
+36-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:28:9-62
+36-->C:\Users\alexa\OneDrive\Bureau\Projet\ProjetDessin\app\src\main\AndroidManifest.xml:28:19-49
 37        </activity>
 38    </application>
 39

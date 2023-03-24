@@ -1,23 +1,32 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color blue
 color buttonColor
 color fond
+color green
 color purple_200
 color purple_500
 color purple_700
+color red
 color teal_200
 color teal_700
 color textColor
 color titre
 color view
 color white
+color yellow
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id btnBleu
 id btnEffacer
+id btnJaune
 id btnNew
+id btnNoir
 id btnQuitter
 id btnReprendre
+id btnRouge
+id btnVert
 id txtTitre
 layout activity_dessin
 layout activity_main

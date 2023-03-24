@@ -38,5 +38,49 @@
 
     </GridLayout>
 
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:rowCount="1">
+
+        <Button
+            android:id="@+id/btnRouge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            />
+
+        <Button
+            android:id="@+id/btnVert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            />
+
+        <Button
+            android:id="@+id/btnBleu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            />
+
+        <Button
+            android:id="@+id/btnJaune"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            />
+
+        <Button
+            android:id="@+id/btnNoir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            />
+
+    </GridLayout>
+
+
 
 </RelativeLayout>
