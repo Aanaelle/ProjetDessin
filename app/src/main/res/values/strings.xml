@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ProjetDessin</string>
+    <string name="txtTitle">Application de dessin</string>
+    <string name="txtNew">NOUVEAU DESSIN</string>
+    <string name="txtResume">REPRENDRE DESSIN</string>
+    <string name="txtQuitter">QUITTER</string>
 </resources>
