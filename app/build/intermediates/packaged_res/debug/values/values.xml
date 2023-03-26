@@ -17,6 +17,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#FFFF00</color>
     <string name="app_name">ProjetDessin</string>
+    <string name="txtEffacer">EFFACER TOUT</string>
     <string name="txtNew">NOUVEAU DESSIN</string>
     <string name="txtQuitter">QUITTER</string>
     <string name="txtResume">REPRENDRE DESSIN</string>

@@ -4,4 +4,5 @@
     <string name="txtNew">NOUVEAU DESSIN</string>
     <string name="txtResume">REPRENDRE DESSIN</string>
     <string name="txtQuitter">QUITTER</string>
+    <string name="txtEffacer">EFFACER TOUT</string>
 </resources>
