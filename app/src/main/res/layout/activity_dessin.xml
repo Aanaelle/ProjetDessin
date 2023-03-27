@@ -47,31 +47,31 @@
         <Button
             android:id="@+id/btnRouge"
             android:layout_width="60dp"
-            android:layout_height="match_parent"
+            android:layout_height="40dp"
             android:background="@color/red" />
 
         <Button
             android:id="@+id/btnVert"
             android:layout_width="60dp"
-            android:layout_height="match_parent"
+            android:layout_height="40dp"
             android:background="@color/green" />
 
         <Button
             android:id="@+id/btnBleu"
             android:layout_width="60dp"
-            android:layout_height="match_parent"
+            android:layout_height="40dp"
             android:background="@color/blue" />
 
         <Button
             android:id="@+id/btnJaune"
             android:layout_width="60dp"
-            android:layout_height="match_parent"
+            android:layout_height="40dp"
             android:background="@color/yellow" />
 
         <Button
             android:id="@+id/btnNoir"
             android:layout_width="60dp"
-            android:layout_height="match_parent"
+            android:layout_height="40dp"
             android:background="@color/black" />
 
     </GridLayout>
@@ -88,8 +88,7 @@
             android:id="@+id/btnCarre"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/carre"
-            />
+            android:src="@drawable/carre"/>
 
         <ImageButton
             android:id="@+id/btnCarreR"
