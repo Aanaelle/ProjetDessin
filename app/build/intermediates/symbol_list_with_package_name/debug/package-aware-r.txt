@@ -1018,6 +1018,7 @@ id txtTitre
 id uniform
 id up
 id useLogo
+id view
 id visible
 id withText
 id wrap

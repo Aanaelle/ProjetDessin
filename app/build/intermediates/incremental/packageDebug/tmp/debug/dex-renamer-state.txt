@@ -1,4 +1,4 @@
-#Mon Mar 27 22:15:34 CEST 2023
-base.0=C\:\\Users\\alexa\\OneDrive\\Bureau\\Projet\\ProjetDessin\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Tue Mar 28 20:34:56 CEST 2023
+base.0=C\:\\Users\\anacl\\AndroidStudioProjects\\ProjetDessin\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
