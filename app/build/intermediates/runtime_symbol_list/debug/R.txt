@@ -878,6 +878,7 @@ int id decor_content_parent 0x7f070053
 int id default_activity_button 0x7f070054
 int id deltaRelative 0x7f070055
 int id dependency_ordering 0x7f070056
+int id dessin_layout 0x7f0700e9
 int id dimensions 0x7f070057
 int id direct 0x7f070058
 int id disableHome 0x7f070059
@@ -1017,7 +1018,6 @@ int id txtTitre 0x7f0700de
 int id uniform 0x7f0700df
 int id up 0x7f0700e0
 int id useLogo 0x7f0700e1
-int id view 0x7f0700e6
 int id visible 0x7f0700e2
 int id withText 0x7f0700e3
 int id wrap 0x7f0700e4

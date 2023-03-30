@@ -39,8 +39,8 @@ id btnRond
 id btnRondR
 id btnRouge
 id btnVert
+id dessin_layout
 id txtTitre
-id view
 layout activity_dessin
 layout activity_main
 mipmap ic_launcher

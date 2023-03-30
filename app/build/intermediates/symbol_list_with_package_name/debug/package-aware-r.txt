@@ -879,6 +879,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id dessin_layout
 id dimensions
 id direct
 id disableHome
@@ -1018,7 +1019,6 @@ id txtTitre
 id uniform
 id up
 id useLogo
-id view
 id visible
 id withText
 id wrap
