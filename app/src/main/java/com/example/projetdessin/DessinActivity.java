@@ -1,9 +1,12 @@
 package com.example.projetdessin;
 
+import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
 public class DessinActivity extends AppCompatActivity
@@ -35,12 +38,32 @@ public class DessinActivity extends AppCompatActivity
 
     public void choisirCouleur(View view)
     {
-        /*//récupere la couleur du bouton
-        Button button = view.findViewById(view.getId());
+        ImageButton source = (ImageButton) view;
+        int couleur = Color.BLACK;
 
-            ColorDrawable buttonColor = (ColorDrawable) button.getBackground();
-            //dessinView.setCouleur(Color.valueOf(buttonColor.getColor()));
-            int intColor = ((ColorDrawable) button.getBackground()).getColor();*/
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            switch (source.getTag().toString()) {
+                case "rouge":
+                    couleur = Color.RED;
+                    break;
+                case "bleu":
+                    couleur = Color.BLUE;
+                    break;
+                case "vert":
+                    couleur = Color.GREEN;
+                    break;
+                case "jaune":
+                    couleur = Color.YELLOW;
+                    break;
+                case "noir":
+                    couleur = Color.BLACK;
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        zoneDessin.setColor(couleur);
 
     }
 

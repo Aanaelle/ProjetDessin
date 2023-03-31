@@ -5,7 +5,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.graphics.drawable.shapes.Shape;
+import android.graphics.Path;
 import android.view.MotionEvent;
 import android.view.View;
 
@@ -14,11 +14,12 @@ import java.util.ArrayList;
 public class ZoneDessin extends View implements View.OnTouchListener
 {
     private ArrayList<Forme> formes;
+    private Path path;
     private int x;
     private int y;
     private int width;
     private int height;
-    private Color color;
+    private int color;
 
     private String type = "";
     private boolean isFill = false;
@@ -26,6 +27,7 @@ public class ZoneDessin extends View implements View.OnTouchListener
     public ZoneDessin(Context context) {
         super(context);
         this.formes = new ArrayList<Forme>();
+        path = new Path();
         this.setOnTouchListener(this);
     }
 
@@ -33,12 +35,12 @@ public class ZoneDessin extends View implements View.OnTouchListener
         super.onDraw(canvas);
         canvas.drawColor(Color.WHITE);
         Paint paint = new Paint();
-        paint.setColor(Color.RED);
         for(Forme forme : formes) {
             int xF = forme.getX();
             int yF = forme.getY();
             int widthF = forme.getWidth();
             int heightF = forme.getHeight();
+            paint.setColor(forme.getColor());
             switch (forme.getType()) {
                 case "carre":
                     if (forme.getIsFill()) {
@@ -57,15 +59,11 @@ public class ZoneDessin extends View implements View.OnTouchListener
                     canvas.drawCircle(xF, yF, widthF, paint);
                     break;
                 case "ligne":
-                    if (xF < widthF && yF < heightF) {
-                        canvas.drawLine(xF, yF, widthF, heightF, paint);
-                    } else if (xF > widthF && yF < heightF) {
-                        canvas.drawLine(widthF, yF, xF, heightF, paint);
-                    } else if (xF < widthF && yF > heightF) {
-                        canvas.drawLine(xF, heightF, widthF, yF, paint);
-                    } else if (xF > widthF && yF > heightF) {
-                        canvas.drawLine(widthF, heightF, xF, yF, paint);
-                    }
+                    paint.setStyle(Paint.Style.STROKE);
+                    if(widthF >= xF)
+                        canvas.drawLine(xF, yF, xF - widthF, yF + heightF, paint);
+                    else
+                        canvas.drawLine(xF, yF, xF + widthF, yF + heightF, paint);
 
                     break;
             }
@@ -78,15 +76,12 @@ public class ZoneDessin extends View implements View.OnTouchListener
 
     }
 
-    public void setCouleur(Color color) {
-        this.color = color;
-    }
-
     public boolean onTouch(View view, MotionEvent motionEvent) {
 
         if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
             x = (int) motionEvent.getX();
             y = (int) motionEvent.getY();
+            path.moveTo(x, y);
             invalidate();
         } else if (motionEvent.getAction() == MotionEvent.ACTION_MOVE) {
 
@@ -104,8 +99,13 @@ public class ZoneDessin extends View implements View.OnTouchListener
                 height = y - (int) motionEvent.getY();
             }
             else if(this.type == "ligne") {
-                width = (int) motionEvent.getX();
-                height = (int) motionEvent.getY();
+                width = (int) Math.abs(motionEvent.getX() - x);
+                height = (int) Math.abs(motionEvent.getY() - y);
+                if (width >= 4 || height >= 4) {
+                    x = (int) motionEvent.getX();
+                    y = (int) motionEvent.getY();
+                }
+
             }
             invalidate();
         } else if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
@@ -122,11 +122,10 @@ public class ZoneDessin extends View implements View.OnTouchListener
                 width = x - (int) motionEvent.getX();
                 height = y - (int) motionEvent.getY();
             }
-            else if(this.type == "ligne") {
-                width = (int) motionEvent.getX();
-                height = (int) motionEvent.getY();
-            }
-            this.formes.add(new Forme(this.type, x, y, width, height, this.isFill));
+
+            this.formes.add(new Forme(this.type, x, y, width, height, this.isFill, this.color));
+
+
             invalidate();
         }
 
@@ -147,6 +146,10 @@ public class ZoneDessin extends View implements View.OnTouchListener
         }
     }
 
+    public void setColor(int couleur)
+    {
+        this.color = couleur;
+    }
 }
 
 class Forme
@@ -158,24 +161,18 @@ class Forme
     private int height;
     private boolean isFill;
 
+    private int color;
+    public Forme(String type, int x, int y, int width, int height, boolean isFill, int color)
+    {
+        this.type = type;
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+        this.isFill = isFill;
+        this.color = color;
+    }
 
-    public Forme(String type, int x, int y, int width, int height, boolean isFill)
-    {
-        this.type = type;
-        this.x = x;
-        this.y = y;
-        this.width = width;
-        this.height = height;
-        this.isFill = isFill;
-        this.isFill = isFill;
-    }
-    {
-        this.type = type;
-        this.x = x;
-        this.y = y;
-        this.width = width;
-        this.height = height;
-    }
 
     public String getType()
     {
@@ -207,4 +204,5 @@ class Forme
         return this.isFill;
     }
 
+    public int getColor() { return this.color; }
 }

@@ -50,44 +50,49 @@
         android:rowCount="1"
         android:layout_gravity="center">
 
-        <Button
+        <ImageButton
             android:id="@+id/btnRouge"
             android:layout_width="60dp"
             android:layout_height="40dp"
-            android:background="@color/red"
+            android:src="@drawable/rouge"
             android:onClick = "choisirCouleur"
+            android:tag="rouge"
             />
 
-        <Button
+        <ImageButton
             android:id="@+id/btnVert"
             android:layout_width="60dp"
             android:layout_height="40dp"
-            android:background="@color/green"
+            android:src="@drawable/vert"
             android:onClick = "choisirCouleur"
+            android:tag="vert"
             />
 
-        <Button
+        <ImageButton
             android:id="@+id/btnBleu"
             android:layout_width="60dp"
             android:layout_height="40dp"
-            android:background="@color/blue"
+            android:src="@drawable/bleu"
             android:onClick = "choisirCouleur"
+            android:tag="bleu"
             />
 
-        <Button
+        <ImageButton
             android:id="@+id/btnJaune"
             android:layout_width="60dp"
             android:layout_height="40dp"
-            android:background="@color/yellow"
+            android:src="@drawable/jaune"
             android:onClick = "choisirCouleur"
+            android:tag="jaune"
             />
 
-        <Button
+        <ImageButton
             android:id="@+id/btnNoir"
             android:layout_width="60dp"
             android:layout_height="40dp"
-            android:background="@color/black"
+            android:src="@drawable/noir"
             android:onClick = "choisirCouleur"
+            android:tag="noir"
             />
 
     </GridLayout>
