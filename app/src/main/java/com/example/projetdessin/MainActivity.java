@@ -17,12 +17,14 @@ public class MainActivity extends AppCompatActivity {
     public void nouveauDessin(View view)
     {
         Intent intent = new Intent(this, DessinActivity.class);
+        intent.putExtra("nouveau", true);
         startActivity(intent);
     }
 
     public void reprendreDessin(View view)
     {
         Intent intent = new Intent(this, DessinActivity.class);
+        intent.putExtra("nouveau", false);
         startActivity(intent);
     }
 

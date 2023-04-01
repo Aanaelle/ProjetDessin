@@ -5,6 +5,10 @@
         <item name="colorPrimary">@color/view</item>
         <item name="colorPrimaryDark">@color/buttonColor</item>
         <item name="colorAccent">@color/textColor</item>
+        <item name="android:windowBackground">@color/fond</item>
+
         <!-- Customize your theme here. -->
     </style>
+
+
 </resources>

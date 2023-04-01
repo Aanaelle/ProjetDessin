@@ -17,6 +17,7 @@ color view
 color white
 color yellow
 drawable bleu
+drawable button_effect
 drawable carre
 drawable carre_r
 drawable ic_launcher_background
