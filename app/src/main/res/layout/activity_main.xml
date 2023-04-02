@@ -32,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/txtNew"
-        android:background="@color/buttonColor"
+        android:background="@drawable/button_effect"
         android:textColor="@color/textColor"
         android:layout_gravity="center"
         android:layout_marginBottom="5dp"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:text="@string/txtResume"
         android:textColor="@color/textColor"
-        android:background="@color/buttonColor"
+        android:background="@drawable/button_effect"
         android:layout_gravity="center"
         android:layout_marginBottom="5dp"
         android:onClick="reprendreDessin"/>
@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textColor="@color/textColor"
-        android:background="@color/buttonColor"
+        android:background="@drawable/button_effect"
         android:text="@string/txtQuitter"
         android:layout_marginBottom="5dp"
         android:onClick="quitter"/>

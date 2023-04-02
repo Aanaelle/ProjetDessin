@@ -4,6 +4,6 @@
         <color android:color="@android:color/darker_gray" />
     </item>
     <item>
-        <color android:color="@android:color/transparent" />
+        <color android:color="@color/buttonColor" />
     </item>
 </selector>

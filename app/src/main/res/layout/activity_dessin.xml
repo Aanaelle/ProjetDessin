@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
-            android:background="@color/buttonColor"
+            android:background="@drawable/button_effect"
             android:text="@string/txtQuitter"
             android:textColor="@color/textColor"
             android:onClick = "quitter"
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
             android:layout_toEndOf="@+id/btnQuitter"
-            android:background="@color/buttonColor"
+            android:background="@drawable/button_effect"
             android:text="@string/txtEffacer"
             android:textColor="@color/textColor"
             android:onClick = "effacer"/>
@@ -53,40 +53,36 @@
             android:id="@+id/btnRouge"
             android:layout_width="60dp"
             android:layout_height="40dp"
-            android:src="@drawable/rouge"
             android:onClick = "choisirCouleur"
             android:tag="rouge"
-            android:background="@drawable/button_effect"
+            android:background="@drawable/button_rouge"
             />
 
         <ImageButton
             android:id="@+id/btnVert"
             android:layout_width="60dp"
             android:layout_height="40dp"
-            android:src="@drawable/vert"
             android:onClick = "choisirCouleur"
             android:tag="vert"
-            android:background="@drawable/button_effect"
+            android:background="@drawable/button_vert"
             />
 
         <ImageButton
             android:id="@+id/btnBleu"
             android:layout_width="60dp"
             android:layout_height="40dp"
-            android:src="@drawable/bleu"
             android:onClick = "choisirCouleur"
             android:tag="bleu"
-            android:background="@drawable/button_effect"
+            android:background="@drawable/button_bleu"
             />
 
         <ImageButton
             android:id="@+id/btnJaune"
             android:layout_width="60dp"
             android:layout_height="40dp"
-            android:src="@drawable/jaune"
             android:onClick = "choisirCouleur"
             android:tag="jaune"
-            android:background="@drawable/button_effect"
+            android:background="@drawable/button_jaune"
             />
 
         <ImageButton
@@ -96,7 +92,6 @@
             android:src="@drawable/noir"
             android:onClick = "choisirCouleur"
             android:tag="noir"
-            android:background="@drawable/button_effect"
             />
 
     </GridLayout>
@@ -113,54 +108,48 @@
             android:id="@+id/btnCarre"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/carre"
             android:onClick = "carre"
-            android:background="@drawable/button_effect"
+            android:background="@drawable/button_carre"
             />
 
         <ImageButton
             android:id="@+id/btnCarreR"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/carre_r"
             android:onClick = "carreFill"
-            android:background="@drawable/button_effect"
+            android:background="@drawable/button_carre_r"
             />
 
         <ImageButton
             android:id="@+id/btnRond"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/rond"
             android:onClick = "rond"
-            android:background="@drawable/button_effect"
+            android:background="@drawable/button_rond"
             />
 
         <ImageButton
             android:id="@+id/btnRondR"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/rond_r"
             android:onClick = "rondFill"
-            android:background="@drawable/button_effect"
+            android:background="@drawable/button_rond_r"
             />
 
         <ImageButton
             android:id="@+id/btnLigne"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/ligne"
             android:onClick = "ligne"
-            android:background="@drawable/button_effect"
+            android:background="@drawable/button_ligne"
             />
 
         <ImageButton
             android:id="@+id/btnRetour"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/retour"
             android:onClick="undo"
-            android:background="@drawable/button_effect"/>
+            android:background="@drawable/button_retour"/>
 
     </GridLayout>
     
