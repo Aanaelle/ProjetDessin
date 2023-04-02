@@ -1,150 +1,146 @@
 [
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.projetdessin.app-pngs-4:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable_vert.PNG.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\drawable\\vert.PNG"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable_button_effect.xml.flat",
+        "source": "com.example.projetdessin.app-main-11:/drawable/button_effect.xml"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable_rouge.PNG.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\drawable\\rouge.PNG"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable_retour.png.flat",
+        "source": "com.example.projetdessin.app-main-11:/drawable/retour.png"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-pngs-4:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.example.projetdessin.app-pngs-4:/drawable-xxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.projetdessin.app-merged_res-9:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.projetdessin.app-main-11:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable_jaune.PNG.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\drawable\\jaune.PNG"
+        "merged": "com.example.projetdessin.app-merged_res-9:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projetdessin.app-main-11:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.projetdessin.app-merged_res-9:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projetdessin.app-main-11:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable_bleu.PNG.flat",
+        "source": "com.example.projetdessin.app-main-11:/drawable/bleu.PNG"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.projetdessin.app-merged_res-9:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.projetdessin.app-main-11:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-pngs-4:\\drawable-ldpi\\ic_launcher_background.png"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable_ligne.png.flat",
+        "source": "com.example.projetdessin.app-main-11:/drawable/ligne.png"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\layout\\activity_main.xml"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable_carre_r.png.flat",
+        "source": "com.example.projetdessin.app-main-11:/drawable/carre_r.png"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable_rond.png.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\drawable\\rond.png"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable_rond.png.flat",
+        "source": "com.example.projetdessin.app-main-11:/drawable/rond.png"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.projetdessin.app-merged_res-9:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.projetdessin.app-main-11:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.projetdessin.app-merged_res-9:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projetdessin.app-main-11:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "com.example.projetdessin.app-pngs-4:/drawable-mdpi/ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable_rond_r.png.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\drawable\\rond_r.png"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.example.projetdessin.app-pngs-4:/drawable-xxxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable_button_effect.xml.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\drawable\\button_effect.xml"
+        "merged": "com.example.projetdessin.app-merged_res-9:/xml_backup_rules.xml.flat",
+        "source": "com.example.projetdessin.app-main-11:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-pngs-4:\\drawable-anydpi-v21\\ic_launcher_background.xml"
+        "merged": "com.example.projetdessin.app-merged_res-9:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.projetdessin.app-main-11:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-pngs-4:\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "com.example.projetdessin.app-merged_res-9:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projetdessin.app-main-11:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable_ligne.png.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\drawable\\ligne.png"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable_vert.PNG.flat",
+        "source": "com.example.projetdessin.app-main-11:/drawable/vert.PNG"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable_carre_r.png.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\drawable\\carre_r.png"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable_rond_r.png.flat",
+        "source": "com.example.projetdessin.app-main-11:/drawable/rond_r.png"
     },
     {
         "merged": "com.example.projetdessin.app-merged_res-9:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "com.example.projetdessin.app-main-11:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.example.projetdessin.app-pngs-4:/drawable-xhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.projetdessin.app-merged_res-9:/layout_activity_dessin.xml.flat",
+        "source": "com.example.projetdessin.app-main-11:/layout/activity_dessin.xml"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable_bleu.PNG.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\drawable\\bleu.PNG"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "com.example.projetdessin.app-pngs-4:/drawable-hdpi/ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\xml\\backup_rules.xml"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable_rouge.PNG.flat",
+        "source": "com.example.projetdessin.app-main-11:/drawable/rouge.PNG"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-pngs-4:\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable_jaune.PNG.flat",
+        "source": "com.example.projetdessin.app-main-11:/drawable/jaune.PNG"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable_retour.png.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\drawable\\retour.png"
+        "merged": "com.example.projetdessin.app-merged_res-9:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projetdessin.app-main-11:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\layout_activity_dessin.xml.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\layout\\activity_dessin.xml"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "com.example.projetdessin.app-pngs-4:/drawable-ldpi/ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.projetdessin.app-merged_res-9:/layout_activity_main.xml.flat",
+        "source": "com.example.projetdessin.app-main-11:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable_noir.PNG.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\drawable\\noir.PNG"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable_noir.PNG.flat",
+        "source": "com.example.projetdessin.app-main-11:/drawable/noir.PNG"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-pngs-4:\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "com.example.projetdessin.app-merged_res-9:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.projetdessin.app-main-11:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "com.example.projetdessin.app-pngs-4:/drawable-anydpi-v21/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-pngs-4:\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "com.example.projetdessin.app-merged_res-9:/drawable_carre.png.flat",
+        "source": "com.example.projetdessin.app-main-11:/drawable/carre.png"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.projetdessin.app-merged_res-9:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.projetdessin.app-main-11:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-pngs-4:\\drawable-xhdpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-merged_res-9:\\drawable_carre.png.flat",
-        "source": "C:\\Users\\alexa\\.gradle\\daemon\\7.4\\com.example.projetdessin.app-main-11:\\drawable\\carre.png"
+        "merged": "com.example.projetdessin.app-merged_res-9:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.projetdessin.app-main-11:/mipmap-anydpi-v26/ic_launcher.xml"
     }
 ]

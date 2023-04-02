@@ -14,7 +14,6 @@ import java.util.ArrayList;
 public class ZoneDessin extends View implements View.OnTouchListener
 {
     private ArrayList<Forme> formes;
-    private Path path;
     private int x;
     private int y;
     private int width;
@@ -28,14 +27,12 @@ public class ZoneDessin extends View implements View.OnTouchListener
     {
         super(context);
         this.formes = new ArrayList<Forme>();
-        path = new Path();
         this.setOnTouchListener(this);
     }
 
     public ZoneDessin(Context context, ArrayList<Forme> formes) {
         super(context);
         this.formes = formes;
-        path = new Path();
         this.setOnTouchListener(this);
 
     }
@@ -93,12 +90,54 @@ public class ZoneDessin extends View implements View.OnTouchListener
                     break;
             }
         }
+
+        switch (this.type)
+        {
+            case "carre":
+                paint.setColor(this.color);
+                if (this.isFill)
+                {
+                    paint.setStyle(Paint.Style.FILL);
+                } else
+                {
+                    paint.setStyle(Paint.Style.STROKE);
+                }
+
+                canvas.drawRect(x, y, x + width, y + height, paint);
+                break;
+
+            case "cercle":
+                paint.setColor(this.color);
+                if (this.isFill)
+                {
+                    paint.setStyle(Paint.Style.FILL);
+                } else
+                {
+                    paint.setStyle(Paint.Style.STROKE);
+                }
+
+                canvas.drawCircle(x, y, width, paint);
+                break;
+
+            case "ligne":
+                paint.setColor(this.color);
+                paint.setStyle(Paint.Style.STROKE);
+
+                if(width >= x)
+                    canvas.drawLine(x, y, x - width, y + height, paint);
+                else
+                    canvas.drawLine(x, y, x + width, y + height, paint);
+
+                break;
+        }
+        invalidate();
     }
 
     public void effacer()
     {
         this.formes.clear();
         invalidate();
+
     }
 
     public boolean onTouch(View view, MotionEvent motionEvent)
@@ -107,7 +146,6 @@ public class ZoneDessin extends View implements View.OnTouchListener
         if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
             x = (int) motionEvent.getX();
             y = (int) motionEvent.getY();
-            path.moveTo(x, y);
             invalidate();
         } else if (motionEvent.getAction() == MotionEvent.ACTION_MOVE) {
 
@@ -131,7 +169,6 @@ public class ZoneDessin extends View implements View.OnTouchListener
                     x = (int) motionEvent.getX();
                     y = (int) motionEvent.getY();
                 }
-
             }
             invalidate();
         } else if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
@@ -149,10 +186,12 @@ public class ZoneDessin extends View implements View.OnTouchListener
                 height = y - (int) motionEvent.getY();
             }
 
+            invalidate();
             this.formes.add(new Forme(this.type, x, y, width, height, this.isFill, this.color));
 
-
             invalidate();
+
+            this.x = this.y = this.width = this.height = 0;
         }
 
         return true;
