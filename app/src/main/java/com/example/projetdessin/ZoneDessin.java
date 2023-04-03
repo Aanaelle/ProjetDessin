@@ -82,10 +82,8 @@ public class ZoneDessin extends View implements View.OnTouchListener
                 case "ligne":
                     paint.setStyle(Paint.Style.STROKE);
 
-                    if(widthF >= xF)
-                        canvas.drawLine(xF, yF, xF - widthF, yF + heightF, paint);
-                    else
-                        canvas.drawLine(xF, yF, xF + widthF, yF + heightF, paint);
+
+                    canvas.drawLine(xF, yF, xF + widthF, yF + heightF, paint);
 
                     break;
             }
@@ -123,10 +121,7 @@ public class ZoneDessin extends View implements View.OnTouchListener
                 paint.setColor(this.color);
                 paint.setStyle(Paint.Style.STROKE);
 
-                if(width >= x)
-                    canvas.drawLine(x, y, x - width, y + height, paint);
-                else
-                    canvas.drawLine(x, y, x + width, y + height, paint);
+                canvas.drawLine(x, y, x + width, y + height, paint);
 
                 break;
         }
@@ -162,14 +157,7 @@ public class ZoneDessin extends View implements View.OnTouchListener
                 width = x - (int) motionEvent.getX();
                 height = y - (int) motionEvent.getY();
             }
-            else if(this.type == "ligne") {
-                width = (int) Math.abs(motionEvent.getX() - x);
-                height = (int) Math.abs(motionEvent.getY() - y);
-                if (width >= 4 || height >= 4) {
-                    x = (int) motionEvent.getX();
-                    y = (int) motionEvent.getY();
-                }
-            }
+
             invalidate();
         } else if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
             if(x < motionEvent.getX() && y < motionEvent.getY()) {
@@ -186,7 +174,7 @@ public class ZoneDessin extends View implements View.OnTouchListener
                 height = y - (int) motionEvent.getY();
             }
 
-            invalidate();
+
             this.formes.add(new Forme(this.type, x, y, width, height, this.isFill, this.color));
 
             invalidate();
