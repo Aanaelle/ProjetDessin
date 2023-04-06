@@ -43,6 +43,7 @@ public class ZoneDessin extends View implements View.OnTouchListener
         canvas.drawColor(16247763);
 
         Paint paint = new Paint();
+        paint.setStrokeWidth(5);
 
         for(Forme forme : formes)
         {
